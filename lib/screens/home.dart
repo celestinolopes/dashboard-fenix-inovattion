@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
                                     value: "234.493",
                                     color: Colors.blue.withOpacity(0.1),
                                     variation: "+ 20%",
-                                    variationColor: Colors.green,
+                                    variationColor: Colors.blue,
                                   ),
                                   DashboardCard(
                                     description: "Over last month , \$ 15.340",

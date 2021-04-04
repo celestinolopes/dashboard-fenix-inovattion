@@ -10,10 +10,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          textTheme: TextTheme(
-              bodyText2: GoogleFonts.lato(
-        fontSize: 15,
-      ))),
+        textTheme: TextTheme(
+          bodyText2: GoogleFonts.lato(
+            fontSize: 15,
+          ),
+        ),
+      ),
       title: 'Material App',
       home: HomeScreen(),
     );
